@@ -3,8 +3,7 @@ import { Table, TableCell, TableRow, TableHead, TableBody, Button } from "@mui/m
 import CourseForm from '../Components/CourseForm';
 import CourseDetails from '../Components/CourseDetails';
 
-//we neeed to fetch all the courses and display them here.
-//We need to add, delete or edit course details
+
 
 const CoursesPage = () => {
   const [allCourses, setAllCourses] = useState([])

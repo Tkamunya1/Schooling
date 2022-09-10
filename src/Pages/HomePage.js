@@ -1,8 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 
-//set a nice landing page. This is the first thing people will see
-//should contain login in section
+
 
 const HomePage = () => {
 
@@ -42,7 +41,7 @@ useEffect( () => {
                   <div className="block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden h-96">
                     <div className="relative pb-48 overflow-hidden">
                         <img src="images/students.jpg" alt="" className="absolute inset-0 h-52 w-full object-contain" />
-                        {/* <img src="images/courses.jpg" alt="" className="absolute inset-0 h-52 w-full object-contain" /> */}
+                        
 
                     </div>
                     <div className="p-4 uppercase">
