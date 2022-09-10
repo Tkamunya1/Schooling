@@ -1,21 +1,17 @@
-# GROUP 3 PROJECT
+# Schooling is a school management system
 
-# DragonBalls University Portal
 
-# Authors
-Keith Wesley, Rosemary Njeri, Jeska Jenipher, Mercy Wanjugu, Markbrian Kariuki, Martin Kuria, Jerry Jones, Dennis Mburu
 
 # Instructions
 1. You can navigate to specific pages by clicking on individual rows eg. clicking on a teacher row will send you to that teacher's page
 
 # Deployment Link
-https://63170b2cc76bbe2faf57f93d--spectacular-tanuki-11cb25.netlify.app/
 
 # License
 
 MIT License
 
-Copyright (c) 2022 Keith Wesley
+Copyright (c) 2022 Titus Kamunya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,4 +30,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-# Schooling
