@@ -7,7 +7,7 @@ import { Table, TableCell, TableRow, TableHead, TableBody, Button } from "@mui/m
 const StudentsPage = () => {
   const [students, setAllStudents] = useState([]);
 
-  const url = ' https://group-3-backend-app.herokuapp.com/students'
+  const url = ' https://schooling-system.herokuapp.com/students'
 
   //custom hook
   // function useFetchStudents()
@@ -28,7 +28,7 @@ const StudentsPage = () => {
   //DELETE
 
   function deleteStudent(id){
-    fetch(`https://group-3-backend-app.herokuapp.com/students/${id}`,{
+    fetch(`https://schooling-system.herokuapp.com/students/${id}`,{
         method: "DELETE",
     })
     .then(r => r.json())

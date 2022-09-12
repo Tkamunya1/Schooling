@@ -22,7 +22,7 @@ const SpecificTeacher = () => {
     }
 
     useEffect(() => {
-        fetch(`https://group-3-backend-app.herokuapp.com/teachers/${id}`)
+        fetch(`https://schooling-system.herokuapp.com/teachers/${id}`)
         .then(r => r.json())
         .then(data => setTeacherDetails(data))
     }, [])
@@ -30,7 +30,7 @@ const SpecificTeacher = () => {
     console.log(teacherDetails)
 
     function handleUpdateTeach() {
-        fetch(`https://group-3-backend-app.herokuapp.com/teachers/${id}`, {
+        fetch(`https://schooling-system.herokuapp.com/teachers/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

@@ -14,7 +14,7 @@ const SpecificCourse = () => {
     })
 
     useEffect(() => {
-        fetch(`https://group-3-backend-app.herokuapp.com/courses/${id}`)
+        fetch(`https://schooling-system.herokuapp.com/courses/${id}`)
         .then(r => r.json())
         .then(data => setSpecificCourse(data))
     }, [])
@@ -34,7 +34,7 @@ const SpecificCourse = () => {
     
     function handleSubmit(e){
         e.preventDefault();
-        fetch(`https://group-3-backend-app.herokuapp.com/courses/${id}`,{
+        fetch(`https://schooling-system.herokuapp.com/courses/${id}`,{
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"

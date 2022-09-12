@@ -9,19 +9,18 @@ const CoursesPage = () => {
   const [allCourses, setAllCourses] = useState([])
 
   useEffect(() => {
-    fetch('https://group-3-backend-app.herokuapp.com/courses')
+    fetch('https://schooling-system.herokuapp.com/courses')
     .then(r => r.json())
     .then(data => setAllCourses(data))
   }, []);
 
-  // console.log(allCourses)
 
   function handlePosting(data){
     setAllCourses([...allCourses, data])
   }
 
   function deleteCourse(id){
-    fetch(`https://group-3-backend-app.herokuapp.com/courses/${id}`,{
+    fetch(`https://schooling-system.herokuapp.com/courses/${id}`,{
         method: "DELETE",
     })
     .then(r => r.json())

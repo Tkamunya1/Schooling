@@ -10,7 +10,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   
 useEffect( () => {
-  fetch("https://group-3-backend-app.herokuapp.com/courses")
+  fetch("https://schooling-system.herokuapp.com/courses")
   .then(res => res.json())
   .then(kamunya=> setCourses(kamunya))
 },[])
